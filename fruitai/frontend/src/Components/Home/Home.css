@@ -1,0 +1,89 @@
+
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+ 
+  .login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .login-box {
+    background-color: #bde7b2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .login-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .tagline {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 20px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .chat-box {
+    background-color: #ffe599;
+  }
+  
+  .translate-box {
+    background-color: #bde7b2;
+  }
+  
+  .faqs-box {
+    background-color: #c299fc;
+  }
+  
+  .about-box {
+    background-color: #ffb6c1;
+  }
+  
